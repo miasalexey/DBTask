@@ -2,6 +2,7 @@
 
 namespace DBTask.DB.Entities
 {
+    // Привязка личности к уголовному делу с назначением роли ( свидетель, обвиняемый, потерпевший )
     public class PersonInCriminalCase
     {
         public Guid PersonInCriminalCaseId { get; set; }
