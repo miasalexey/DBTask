@@ -4,6 +4,7 @@ using DBTask.DB.Entities;
 
 namespace DBTask.DB.Entities
 {
+    // Сообщение о проишествии 
     public class MessageRegistration
     {
         public Guid MessageRegistrationId { get; set; } = Guid.NewGuid();
