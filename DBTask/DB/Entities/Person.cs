@@ -5,6 +5,7 @@ using DBTask.DB.Entities;
 
 namespace DBTask.DB.Entities
 {
+    // Данные о личности 
     public class Person
     {
         public Guid PersonId { get; set; }
