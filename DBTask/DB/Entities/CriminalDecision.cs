@@ -4,6 +4,7 @@ using DBTask.DB.Entities;
 
 namespace DBTask.DB.Entities
 {
+    // Решение о заведении уголовного дела на основании сообщения о регистрации проишествия
     public class CriminalDecision
     {
         public Guid CriminalDecisionId { get; set; }
