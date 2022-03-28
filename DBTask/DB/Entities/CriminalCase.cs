@@ -4,6 +4,7 @@ using DBTask.DB.Entities;
 
 namespace DBTask.DB.Entities
 {
+    // Уголовное дело
     public class CriminalCase
     {
         public Guid CriminalCaseId { get; set; } = new Guid();
